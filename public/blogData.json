@@ -1,0 +1,32 @@
+{  
+    "blogcard":[
+     {
+         "id": 1,
+         "avatar": "avatar-1.png",
+         "blogbackground": "blog-card-1.jpg",
+         "title":"Leveling up your links ",
+         "time":"2 months ago . 3 mins read"
+      },
+      {
+        "id":2,
+        "avatar": "avatar-1.png",
+        "blogbackground": "blog-card-2.jpg",
+        "title":"Leveling up your links ",
+        "time":"2 months ago . 3 mins read" 
+      },
+      {
+        "id":3,
+        "avatar": "avatar-1.png",
+        "blogbackground": "blog-card-3.jpg",
+        "title":"Leveling up your links ",
+        "time":"2 months ago . 3 mins read" 
+      },   
+      {
+        "id":4,
+        "avatar": "avatar-1.png",
+        "blogbackground": "blog-card-4.jpg",
+        "title":"Leveling up your links ",
+        "time":"2 months ago . 3 mins read" 
+      }
+     ]
+}
