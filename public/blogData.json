@@ -11,22 +11,60 @@
         "id":2,
         "avatar": "avatar-1.png",
         "blogbackground": "blog-card-2.jpg",
-        "title":"Leveling up your links ",
+        "title":"Customizing your page",
         "time":"2 months ago . 3 mins read" 
       },
       {
         "id":3,
         "avatar": "avatar-1.png",
         "blogbackground": "blog-card-3.jpg",
-        "title":"Leveling up your links ",
+        "title":"Your weekly update email ",
         "time":"2 months ago . 3 mins read" 
       },   
+      
       {
         "id":4,
         "avatar": "avatar-1.png",
         "blogbackground": "blog-card-4.jpg",
-        "title":"Leveling up your links ",
+        "title":"Enabling visitors to support your content",
         "time":"2 months ago . 3 mins read" 
+      },   
+      
+      {
+        "id":5,
+        "avatar": "avatar-1.png",
+        "blogbackground": "blog-card-5.jpg",
+        "title":"Featuring a video",
+        "time":"4 months ago . 2 mins read" 
+      },
+      {
+        "id":6,
+        "avatar": "avatar-1.png",
+        "blogbackground": "blog-card-6.jpg",
+        "title":"Setting up with stripe ",
+        "time":"1 months ago . 3 mins read" 
+      },
+     
+      {
+        "id":7,
+        "avatar": "avatar-1.png",
+        "blogbackground": "blog-card-7.jpg",
+        "title":"The Smart Link",
+        "time":"3 months ago . 2 mins read" 
+      },
+      {
+        "id":8,
+        "avatar": "avatar-1.png",
+        "blogbackground": "blog-card-8.jpg",
+        "title":"Monetization for content creators ",
+        "time":"3 months ago . 2 mins read" 
+      },
+      {
+        "id":9,
+        "avatar": "avatar-1.png",
+        "blogbackground": "blog-card-9.jpg",
+        "title":"Building your email list",
+        "time":"3 months ago . 2 mins read" 
       }
      ]
 }
