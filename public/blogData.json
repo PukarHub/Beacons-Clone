@@ -2,8 +2,8 @@
     "blogcard":[
      {
          "id": 1,
-         "avatar": "avatar-1.png",
-         "blogbackground": "blog-card-1.jpg",
+         "avatar": "img/avatar-1.png",
+         "blogbackground": "img/blog-card-1.jpg",
          "title":"Leveling up your links ",
          "time":"2 months ago . 3 mins read"
       },
