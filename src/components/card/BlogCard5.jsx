@@ -37,43 +37,49 @@ class BlogCard5 extends React.Component {
     });
   };
 
-
   componentDidMount() {
     this.getBlogData();
   }
 
-
   render() {
-   const {error, blogcard} = this.state;
-   if (error) {
-    return <div>Error: {error.message}</div>;
-  } else {
-    return (
-      <Fragment>
-        {blogcard.map(data => (
-          <div key={data.id}>
-            {/* {data.title} {data.avatar} {data.time} */}
-            <div className='card-container'>
-            <Link to='featuring a video.html' className='main-card main-card-1'>
-           <img src={data.blogbackground} alt='' className='main-card-img' />
-             <img src={data.avatar1} alt='' className='card-avatar-1' />
-             <h2 className='tips-card'>Tips</h2>
-             <div>
-               <h5>{data.title} &#128279;</h5>
-             </div>
-             <div>
-               <h6>
-                {data.time} &nbsp;&bull;&nbsp;<span>&nbsp;</span>
-               </h6>
-             </div>
-           </Link>
-            </div>
+    const { error, blogcard } = this.state;
+    if (error) {
+      return <div>Error: {error.message}</div>;
+    } else {
+      return (
+        <Fragment>
+          <div className='card-container'>
+            {blogcard.map((data) => (
+              <div key={data.id} className="main-card-1" style ={{borderRadius: '15px'}}>
+                <Link to='featuring a video.html'className='main-card'>
+                  <img
+                    src={require('../../img/' + data.blogbackground)}
+                    alt=''
+                    className='main-card-img'
+                  />
+                  <img
+                    src={require('../../img/' + data.avatar)}
+                    alt=''
+                    className='card-avatar-1'
+                  />
+                  <h2 className='tips-card'>Tips</h2>
+                  <div>
+                    <h5>
+                      {data.title} {data.emoji}
+                    </h5>
+                  </div>
+                  <div>
+                    <h6>
+                      {data.time} &nbsp;&bull;&nbsp;<span>&nbsp;</span>
+                    </h6>
+                  </div>
+                </Link>
+              </div>
+            ))}
           </div>
-        ))}
-      </Fragment>
-    
-);
-}
+        </Fragment>
+      );
+    }
     //    return (
     //   <React.Fragment>
     //     {/* <!-- REST OF THE CARDS --> */}
@@ -116,7 +122,7 @@ class BlogCard5 extends React.Component {
     //         <img src={avatar1} alt='' className='card-avatar-1' />
     //         <h2 className='tips-card'>Tips</h2>
     //         <div>
-    //           <h5>Your weekly update email &#129299</h5>
+    //           <h5>Your weekly update email &#129299;</h5>
     //         </div>
     //         <div>
     //           <h6>
@@ -257,3 +263,4 @@ class BlogCard5 extends React.Component {
 }
 
 export default BlogCard5;
+/*  */

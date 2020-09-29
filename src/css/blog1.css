@@ -301,7 +301,7 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 1rem;
+  padding: 0rem;
 }
 
 .blog-card-top-2 .card-2-info h5 {
@@ -318,7 +318,7 @@ a {
   font-weight: 300;
   font-family: "Roboto", sans-serif;
   text-align: left;
-  margin: 3rem 1rem;
+  margin: 1.5rem 1rem;
 }
 
 .blog-card-top-2 .blog-card-img {
@@ -336,16 +336,13 @@ a {
   display: -ms-grid;
   display: grid;
   padding: 0rem 3rem;
-  -ms-grid-columns: (1fr);
-      grid-template-columns: repeat(6, 1fr);
-  -ms-grid-rows: (1fr);
-      grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;      
 }
 
 .card-container .main-card {
   border-radius: 15px;
   position: relative;
-  margin: 1rem;
   -webkit-box-shadow: 0px 10px 17px -3px rgba(0, 0, 0, 0.23);
           box-shadow: 0px 10px 17px -3px rgba(0, 0, 0, 0.23);
   -ms-grid-column: 1;
@@ -358,12 +355,12 @@ a {
   -webkit-transition: ease 0.3s;
   transition: ease 0.3s;
 }
-
-.card-container .main-card:hover {
+.hover-fix{
+  box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.65);
+}
+.card-container .main-card-1:hover {
   -webkit-box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.65);
           box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.65);
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
 }
 
 .card-container .main-card .tips-card {
@@ -523,7 +520,7 @@ a {
   height: 50px;
   width: 50px;
   position: absolute;
-  top: 20px;
+  top: -192px;
   left: 20px;
 }
 
@@ -1026,6 +1023,7 @@ a {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     grid-row: 1 / 2;
+    border-radius: 15px;
   }
   .card-container .main-card-4 {
     -ms-grid-column: 4;

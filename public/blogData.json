@@ -2,24 +2,27 @@
     "blogcard":[
      {
          "id": 1,
-         "avatar": "img/avatar-1.png",
-         "blogbackground": "img/blog-card-1.jpg",
+         "avatar": "avatar-1.png",
+         "blogbackground": "blog-card-1.jpg",
          "title":"Leveling up your links ",
-         "time":"2 months ago . 3 mins read"
+         "time":"2 months ago . 3 mins read",
+         "emoji": "🎨"
       },
       {
         "id":2,
         "avatar": "avatar-1.png",
         "blogbackground": "blog-card-2.jpg",
         "title":"Customizing your page",
-        "time":"2 months ago . 3 mins read" 
+        "time":"2 months ago . 3 mins read",
+        "emoji": "🎨" 
       },
       {
         "id":3,
         "avatar": "avatar-1.png",
         "blogbackground": "blog-card-3.jpg",
         "title":"Your weekly update email ",
-        "time":"2 months ago . 3 mins read" 
+        "time":"2 months ago . 3 mins read" ,
+        "emoji" : "🎨"
       },   
       
       {
@@ -27,7 +30,8 @@
         "avatar": "avatar-1.png",
         "blogbackground": "blog-card-4.jpg",
         "title":"Enabling visitors to support your content",
-        "time":"2 months ago . 3 mins read" 
+        "time":"2 months ago . 3 mins read" ,
+        "emoji" : "🎨"
       },   
       
       {
@@ -35,14 +39,16 @@
         "avatar": "avatar-1.png",
         "blogbackground": "blog-card-5.jpg",
         "title":"Featuring a video",
-        "time":"4 months ago . 2 mins read" 
+        "time":"4 months ago . 2 mins read" ,
+        "emoji": "🎨"
       },
       {
         "id":6,
         "avatar": "avatar-1.png",
         "blogbackground": "blog-card-6.jpg",
         "title":"Setting up with stripe ",
-        "time":"1 months ago . 3 mins read" 
+        "time":"1 months ago . 3 mins read" ,
+        "emoji": "🎨"
       },
      
       {
@@ -50,7 +56,8 @@
         "avatar": "avatar-1.png",
         "blogbackground": "blog-card-7.jpg",
         "title":"The Smart Link",
-        "time":"3 months ago . 2 mins read" 
+        "time":"3 months ago . 2 mins read" ,
+        "emoji": "🎨"
       },
       {
         "id":8,
@@ -62,9 +69,11 @@
       {
         "id":9,
         "avatar": "avatar-1.png",
-        "blogbackground": "blog-card-9.jpg",
+        "blogbackground": "blog-card-9.jpeg",
         "title":"Building your email list",
-        "time":"3 months ago . 2 mins read" 
+        "time":"3 months ago . 2 mins read" ,
+        "emoji": "🎨"
       }
+     
      ]
 }
