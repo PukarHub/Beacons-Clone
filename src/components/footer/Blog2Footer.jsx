@@ -1,16 +1,16 @@
-import React from 'react';
+import React from 'react'
 import { Link } from 'react-router-dom';
 
-function BlogFooter() {
-  return (
-    <React.Fragment>
-      <div className='page-btn'>
+function Blog2Footer() {
+    return (
+        <React.Fragment>
+             <div className='page-btn'>
         <div>
           <p>
-            Page 1 of 2{' '}
-            <Link to='/blog2'>
-              <i className='fas fa-arrow-right page-arrow'></i>
+          <Link to='/blog1'>
+              <i className='fas fa-arrow-left page-arrow'></i>
             </Link>
+            Page 2 of 2{' '}
           </p>
         </div>
       </div>
@@ -27,8 +27,8 @@ function BlogFooter() {
         </Link>
         <p>Javascript license information</p>
       </section>
-    </React.Fragment>
-  );
+        </React.Fragment>
+    )
 }
 
-export default BlogFooter;
+export default Blog2Footer

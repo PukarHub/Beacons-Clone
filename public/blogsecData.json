@@ -1,0 +1,29 @@
+{
+    "blogcardsec" : [
+      {
+        "id": 1,
+        "avatar": "avatar-1.png",
+        "blogbackground": "blog-card-7.jpg",
+        "title":"Gettting started with your selcouth profile ",
+        "time":"7 months ago . 3 mins read",
+        "emoji": "🎨"
+     },
+      {
+        "id": 2,
+        "avatar": "avatar-1.png",
+        "blogbackground": "blog-card-12.jpg",
+        "title":"Your selcouth digital store ",
+        "time":"4 months ago . 3 mins read",
+        "emoji": "🎨"
+     },
+      {
+        "id": 4,
+        "avatar": "avatar-1.png",
+        "blogbackground": "blog-card-14.jpg",
+        "title":"How much many do youtuber really make",
+        "time":"7 months ago . 3 mins read",
+        "emoji": "🎨"
+     }
+     
+    ] 
+}

@@ -22,7 +22,7 @@ function MobileComponent() {
             </div>
           </div>
             <div className="gallery-user-info">
-              <p>Hi there! You can check out my other social media platforms and my current favorite items down below! If you want to engage with me on a more personal level shoot me a video request! :)</p>
+              <p>Hi there! You can check out my other social media platforms and my current favorite items down below! If you want to engage with me on a more personal level shoot me a video request!</p>
             </div>
   
             <div className="gallery-user-hashtags">
@@ -90,7 +90,7 @@ function MobileComponent() {
         <i className="fab fa-facebook-square fa-2x"></i>
       </div>
     </div>
-    
+  
 
       <div className="gallery-user-hashtags-3">
         <Link to="#">Youtube</Link>

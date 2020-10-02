@@ -26,16 +26,16 @@ function Homepage() {
           </Link>
           {/* navbar-items */}
           <div className='navbar-items'>
-            <Link to='/' className='navbar-item'>
+            <Link to='/blog1' className='navbar-item'>
               Blog
             </Link>
-            <Link to='/' className='navbar-item'>
+            <Link to='/gallery' className='navbar-item'>
               Gallery
             </Link>
-            <Link to='/' className='navbar-item'>
+            <Link to='/shop' className='navbar-item'>
               Shop
             </Link>
-            <Link to='/' className='navbar-item'>
+            <Link to='/merchants' className='navbar-item'>
               Merchants
             </Link>
           </div>
